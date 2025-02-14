@@ -1,12 +1,16 @@
-
-
 function App() {
-
-
   return (
     <>
-      <div>
-        <h2 className="text-red-500">Chat Room</h2>
+      <div className="bg-black h-full">
+        <div className="h-[90vh] border-b-blue-100" >
+              <div>
+                 all the messages
+              </div>
+        </div>
+        <div className="bg-white"> 
+               <input type="text" placeholder="enter the message" />
+               <button type="button">Send</button>
+        </div>
       </div>
     </>
   )
